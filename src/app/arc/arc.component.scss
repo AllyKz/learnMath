@@ -1,0 +1,21 @@
+.arc {
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    background-color: #FFDA76;
+    border-bottom: none;
+    align-items: center;
+
+}
+
+.arc-inner {
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    background-color: white;
+    border-bottom: none;
+    position: absolute;
+
+}

@@ -1,0 +1,21 @@
+#backColor {
+    --ion-background-color: #FFDA76;
+  }
+
+.cardColor {
+--ion-background-color: #ffffff;
+}
+
+#backgroundImg {
+  --background: url('/assets/img/congratulations_img.png')no-repeat center center / cover;
+}
+
+ion-card {
+  margin: 150px 30px;
+  padding: 20px 0px;
+}
+
+.center {
+    text-align: center;
+    padding-top: 20px;
+}

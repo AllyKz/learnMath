@@ -1,0 +1,32 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>startQuiz</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Pangolin&display=swap" rel="stylesheet">
+
+<!-- <ion-content [fullscreen]="true" id="backColor" class="ion-padding">   -->
+<ion-content [fullscreen]="true" id="backgroundImg" class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+          <ion-card class="cardColor">
+            <!-- <app-arc></app-arc> -->
+            <div class="center">
+            <ion-card-subtitle class="itim-regular">Let's Learn!</ion-card-subtitle>
+              <ion-card-content class="pangolin-regular">
+                <br>MATH QUIZ FOR KIDS<br>
+                <ion-text style="font-size: 20px;">Addition - Substraction - Multiplication - Division</ion-text><br>
+                <ion-button color="tertiary" size="medium" (click)="goToNextPage()">Start</ion-button>
+                <!-- <ion-button expand="full" routerLink="/addition">Start</ion-button> x jd -->
+              </ion-card-content>
+            </div>
+          </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

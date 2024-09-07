@@ -1,0 +1,51 @@
+#backColor {
+    --ion-background-color: #FFDA76;
+  }
+
+#backgroundImg {
+    --background: url('/assets/img/MATH QUIZ FOR KIDS WEBSITE PROTOTYPE.png')no-repeat center center / cover;
+}
+
+ion-card {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+    height: 60vh;
+    border-style: dashed;
+    margin: 100px 25px;
+    // margin: 200px 30px;
+    
+}
+
+.cardColor {
+    --ion-background-color: #ffffff;
+}
+
+.center {
+    text-align: center;
+    padding: 30px 0px;
+    // margin: -50px 0px;
+}
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    background-color: #ffe195;
+  }
+
+.pangolin-regular {
+    font-family: "Pangolin", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+  }
+
+ion-button {
+    margin-top: 30px;
+    font-size: 20px;
+}
+  

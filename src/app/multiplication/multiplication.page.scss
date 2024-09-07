@@ -1,0 +1,20 @@
+#backColor {
+    --ion-background-color: #EC709A;
+}
+
+.cardColor {
+    --ion-background-color: #ffffff;
+}
+
+#backgroundImg {
+    --background: url('/assets/img/multiplication_img.png')no-repeat center center / cover;
+}
+
+ion-card {
+    margin: 120px 10px;
+}
+
+.center {
+    text-align: center;
+    padding-top: 20px;
+}

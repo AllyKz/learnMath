@@ -1,0 +1,37 @@
+#backColor {
+    --ion-background-color: #EC709A;
+}
+
+#backgroundImg {
+    --background: url('/assets/img/content_img.png')no-repeat center center / cover;
+}
+
+ion-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cardColor{
+    --ion-background-color: #ffffff;
+}
+
+.center {
+    padding: 5px 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+
+    li {
+        padding: 10px 0px;
+    }
+}
+
+ion-button {
+    height: 70px;
+    width: 250px;
+    font-size: 25px;
+}

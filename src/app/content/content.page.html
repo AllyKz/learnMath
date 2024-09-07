@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>content</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" id="backgroundImg">
+  <ion-grid>
+    <ion-row>
+      <!-- <ion-col> -->
+        <ion-card class="cardColor">
+          <div class="center">
+            <ion-card-content>
+              <ul>
+                <li><ion-button (click)="additionPage()" style="--background: #A02334;">Addition</ion-button></li>
+                <li><ion-button (click)="substractionPage()" style= "--background:#FFAD60;">Substraction</ion-button></li>
+                <li><ion-button (click)="multiplicationPage()" style="--background: #536493">Multiplication</ion-button></li>
+                <li><ion-button (click)="divisionPage()" style="--background: #36C2CE;">Division</ion-button></li>
+              </ul>
+            </ion-card-content>
+          </div>
+        </ion-card>
+      <!-- </ion-col> -->
+    </ion-row>
+
+
+    <!-- <ion-row>
+      <ion-col>
+        <div style="border-width:3px; border-style:solid; border-color:#FF0000;">
+        <ul>
+          <li><ion-button (click)="additionPage()">Addition</ion-button></li>
+          <li><ion-button (click)="substractionPage()">Substraction</ion-button></li>
+          <li><ion-button (click)="multiplicationPage()">Multiplication</ion-button></li>
+          <li><ion-button (click)="divisionPage()">Division</ion-button></li>
+        </ul>
+      </div>
+      </ion-col>
+    </ion-row> -->
+  </ion-grid>
+</ion-content>

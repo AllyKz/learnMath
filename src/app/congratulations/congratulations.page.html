@@ -1,0 +1,23 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>congratulations</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true" id="backgroundImg">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card class="cardColor">
+          <div class="center">
+            <ion-card-title style="font-size: 30px;">CONGRATULATIONS</ion-card-title><br>
+            <ion-card-subtitle>Your marks: {{correctAnswers}} out of {{totalQuestion}}</ion-card-subtitle><br>
+            <ion-card-content>
+              <ion-button color="tertiary" (click)="goToNextPage()">PLAY AGAIN</ion-button>
+            </ion-card-content>
+          </div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

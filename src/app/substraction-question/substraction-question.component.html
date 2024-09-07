@@ -1,0 +1,18 @@
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>{{ question }}</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    <ion-item>
+      <ion-label position="floating">Your Answer</ion-label>
+      <ion-input [(ngModel)]="userAnswer" type="number" (keydown.enter)="checkAnswer()"></ion-input> 
+      <!-- `keydown.enter` event allows the user to submit the answer by pressing Enter -->
+    </ion-item>
+
+    <ion-button expand="full" (click)="checkAnswer()">Submit</ion-button>
+    <div *ngIf="resultMessage">
+      <ion-text color="{{ resultColor }}">{{ resultMessage }}</ion-text>
+    </div>
+  </ion-card-content>
+</ion-card>
